@@ -1,0 +1,13 @@
+let obj={
+    name :"kavya",
+    age : 20,
+    email : "negi@gmail.com",
+    address : {
+        city : "chandigarh",
+    },
+};
+
+// optional chaining with ? = error nhi deta agr value exist nhi krti to
+
+
+obj?.address?.city;
