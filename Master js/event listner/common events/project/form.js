@@ -32,9 +32,9 @@ form.addEventListener("submit",function(dets){
     main.appendChild(card);
 
     input.forEach(function(inps){
-        if(inps.type != "submit"){
+        if(inps.type !== "submit"){
             inps.value= "";
         }
         
     })
-});
+});                              
